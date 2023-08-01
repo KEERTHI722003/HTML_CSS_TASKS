@@ -1,0 +1,40 @@
+/* Reset default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    height: 100px; 
+  }
+  
+  .fixed-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; 
+
+  }
+  
+  .fixed-nav ul {
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    height: 100%;
+    list-style: none;
+  }
+  
+  .fixed-nav li {
+    padding: 10px;
+  }
+  
+  .fixed-nav a {
+    color: #fff; 
+    text-decoration: none;
+  }
+  
+  .fixed-nav a:hover {
+    text-decoration: underline;
+  }
+  
